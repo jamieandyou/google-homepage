@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html lang="en-EN" xml:lang="en-EN" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>Google</title>
+		<link href="css/styles.css" media="screen" rel="stylesheet" type="text/css" />
+		<link rel="shortcut icon" href="images/favicon.ico" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="keywords" content="webpage, website" />
+		<meta name="description" content="Describing what this webpage is about." />
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+</head>
+
+<body>
+
+	<div id="wrap_overall">
+		
+		<div id="wrap_header">
+		
+			<div id="nav_main">
+
+				<ul>
+					<li><a href="#">+You</a></li>
+					<li><a href="#">Gmail</a></li>
+					<li><a href="#">Images</a></li>
+					<li><a href="#"><img src="http://www.spottedfriend.com/images/dot.jpg" /></a></li>
+					<li><span class="sign_in_btn">Sign In</span></li>
+				</ul>
+
+			</div> <!-- END nav_main -->
+
+		</div> <!-- END wrap_header -->
+
+		<div id="wrap_page">
+
+			<div class="logo">
+		        <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Logo_Google_2013_Official.svg/1280px-Logo_Google_2013_Official.svg.png" alt="Google" />
+		    </div>
+
+		    <div class="search_form">
+		        <form action="#" method="POST" name="search">
+					
+					<input id="search_box" type="text" name="search_query"><br>
+					<div class="form_buttons">
+				        <input class="button" type="submit" value="Google Search">
+						<input class="button" type="submit" value="I'm Feeling Lucky">	
+				    </div>
+					
+				</form>
+		     </div>
+		     
+			
+
+		</div> <!-- END wrap_page -->
+
+		<div class="footer">
+        	<ul class="float_left">
+					<li><a href="#">Advertising</a></li>
+					<li><a href="#">Business</a></li>
+					<li><a href="#">About</a></li>
+			</ul>
+
+			<ul class="float_right">
+					<li><a href="#">Privacy</a></li>
+					<li><a href="#">Terms</a></li>
+					<li><a href="#">Settings</a></li>
+			</ul>
+      	</div>
+
+	</div> <!-- END wrap_overall -->
+
+	<script type="text/javascript">
+		$(function() {
+  			$("#search_box").focus();
+		});
+	</script>
+</body>
+
+</html>
